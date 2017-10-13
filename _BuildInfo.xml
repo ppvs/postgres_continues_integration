@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<buildInfo>
+  <projectName>PostgresCi</projectName>
+  <companyName>kinross</companyName>
+  <versionMajor>0</versionMajor>
+  <versionMinor>0</versionMinor>
+  <versionPatch>1</versionPatch>
+  <buildNumber>0</buildNumber>
+  <revision>1</revision>
+  <version>0.0.1.0</version>
+  <repositoryPath>https://github.com/itdoster/postgres_continues_integration.git</repositoryPath>
+  <microsoftNetFramework>net-4.0</microsoftNetFramework>
+  <msbuildConfiguration>Release</msbuildConfiguration>
+  <msbuildPlatform>Any CPU</msbuildPlatform>
+  <builtWith>UppercuT v. 1.4.2.0</builtWith>
+</buildInfo>
