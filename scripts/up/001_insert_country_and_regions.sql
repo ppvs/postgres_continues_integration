@@ -1,0 +1,2 @@
+DO $do$ BEGINIF not exists(select * from region) then begin  insert into country (name) VALUES ('United Kingdom');
+  insert into region (name, country_id, rate) VALUES  ('Inner London',1,'1.06'),  ('Outer London',1,'1'),  ('South East(exclude London)',1,'0.98'),  ('South West',1,'0.91'),  ('East of England',1,'0.93'),  ('East Midlands',1,'0.9'),  ('West Midlands',1,'0.88'),  ('Wales',1,'0.88'),  ('North West',1,'0.89'),  ('Yorkshine and Humberside',1,'0.88'),  ('North East',1,'0.86'),  ('Scotland',1,'0.9'),  ('Nothen Ireland',1,'0.76');   end;END if;END $do$
